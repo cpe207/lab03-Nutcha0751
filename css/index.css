@@ -1,17 +1,30 @@
-.navbar {
-    background-color: #333;
-    overflow: hidden;
+#p1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fcfff8;
+}
+.custom-navbar .nav-link-home {
+    color: #fcfff8;
+}
+#a1 {
+    color: #fcfff8;
+}
+.custom-navbar #a1:hover {
+    color: #333;
 }
 .navbar a {
     float: left;
     display: block;
-    color: white;
+    color: #fcfff8;
     text-align: center;
-    padding: 14px 20px;
     text-decoration: none;
 }
 
 .navbar a:hover {
-    background-color: #ddd; /* เปลี่ยนสีพื้นหลังเมื่อชี้ mouse */
-    color: black;
+    background-color: #fcfff8;
+    color: #333;
+    font-weight: bold;
+}
+.custom-navbar {
+    background-color: #333;
 }
